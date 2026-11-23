@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-11-23T21:51:51.230679+00:00",
+  "design": "4 assets x 4 roles x 3 DSP segments (full factorial)",
+  "total_decisions": 48,
+  "oracle_accuracy": 1.0,
+  "denial_detection_rate": 1.0,
+  "false_deny_rate": 0.0,
+  "confusion": {
+    "expected_deny": 20,
+    "caught": 20,
+    "missed": 0,
+    "expected_allow": 28,
+    "false_deny": 0
+  },
+  "denial_code_distribution": {
+    "DENY_NO_PERMISSION_SATISFIED": 10,
+    "ERR_NO_POLICY": 6,
+    "DENY_PROHIBITION_purpose": 4
+  },
+  "latency_ms": {
+    "p50": 0.009,
+    "p95": 0.037,
+    "max": 1.808
+  },
+  "by_segment": {
+    "catalog": {
+      "n": 16,
+      "deny": 0,
+      "allow": 16
+    },
+    "negotiation": {
+      "n": 16,
+      "deny": 10,
+      "allow": 6
+    },
+    "transfer": {
+      "n": 16,
+      "deny": 10,
+      "allow": 6
+    }
+  },
+  "findings": [
+    {
+      "severity": "info",
+      "issue": "asset gb-grid-aggregated-load lacks ODRL policy → negotiation/transfer ERR_NO_POLICY；目录可见但谈判拒绝，暴露策略缺口（评测器的价值证明）"
+    }
+  ]
+}

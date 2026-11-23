@@ -15,5 +15,16 @@
       "action": "odrl:attribute",
       "duty": "attribute-source-and-license"
     }]
+  }, {
+    "action": "odrl:distribute",
+    "constraint": [{
+      "odrl:leftOperand": "odrl:purpose",
+      "odrl:operator": "odrl:eq",
+      "odrl:rightOperand": {"@value": "compute-power-coordination-research"}
+    }],
+    "duty": [{
+      "action": "odrl:attribute",
+      "duty": "attribute-source-and-license"
+    }]
   }]
 }

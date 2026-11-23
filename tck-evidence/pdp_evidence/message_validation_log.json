@@ -1,0 +1,132 @@
+{
+  "generated_at": "2026-11-23T21:55:29.747580+00:00",
+  "protocol": "Dataspace Protocol (DSP) profile v0.8 context + ODRL 2.0",
+  "validation_engine": "pyld jsonld.expand (real JSON-LD processing)",
+  "local_contexts": {
+    "https://www.w3.org/ns/odrl.jsonld": "odrl.jsonld",
+    "https://w3id.org/dspace/2024/1/context.jsonld": "dsp_2024-1_context.jsonld"
+  },
+  "total_messages": 9,
+  "valid": 5,
+  "invalid": 4,
+  "verdict_accuracy": 1.0,
+  "expansion_latency_ms": {
+    "p50": 3.442,
+    "max": 12.914
+  },
+  "invalid_cases_detected": [
+    "invalid_missing_context",
+    "invalid_unknown_type",
+    "invalid_unbound_term",
+    "invalid_bad_json_context"
+  ],
+  "detail": [
+    {
+      "message": "catalog_request",
+      "expected_valid": true,
+      "valid": true,
+      "errors": [],
+      "expanded_types": [
+        "https://w3id.org/dspace/2024/1/CatalogRequestMessage"
+      ],
+      "latency_ms": 12.914,
+      "msg_sha256": "1e5070318809cd2f"
+    },
+    {
+      "message": "contract_request_research",
+      "expected_valid": true,
+      "valid": true,
+      "errors": [],
+      "expanded_types": [
+        "https://w3id.org/dspace/2024/1/ContractRequestMessage"
+      ],
+      "latency_ms": 10.255,
+      "msg_sha256": "dc034264dbf0d3d8"
+    },
+    {
+      "message": "contract_request_resale",
+      "expected_valid": true,
+      "valid": true,
+      "errors": [],
+      "expanded_types": [
+        "https://w3id.org/dspace/2024/1/ContractRequestMessage"
+      ],
+      "latency_ms": 3.223,
+      "msg_sha256": "99100f46d7a409a2"
+    },
+    {
+      "message": "transfer_request",
+      "expected_valid": true,
+      "valid": true,
+      "errors": [],
+      "expanded_types": [
+        "https://w3id.org/dspace/2024/1/TransferRequestMessage"
+      ],
+      "latency_ms": 3.442,
+      "msg_sha256": "415f725ad965f47c"
+    },
+    {
+      "message": "derived_aggregation",
+      "expected_valid": true,
+      "valid": true,
+      "errors": [],
+      "expanded_types": [
+        "https://w3id.org/dspace/2024/1/ContractRequestMessage"
+      ],
+      "latency_ms": 2.948,
+      "msg_sha256": "836ea0af34ce72cc"
+    },
+    {
+      "message": "invalid_missing_context",
+      "expected_valid": false,
+      "valid": false,
+      "errors": [
+        "no_type_iri: @type 未展开为 DSP/ODRL 命名空间 IRI（context 缺失或不匹配）",
+        "vocabulary_governance_violation: dspace:datasetPartition",
+        "vocabulary_governance_violation: dspace:filter"
+      ],
+      "expanded_types": [
+        "dspace:CatalogRequestMessage"
+      ],
+      "latency_ms": 0.179,
+      "msg_sha256": "f10ec6fefa3bb04b"
+    },
+    {
+      "message": "invalid_unknown_type",
+      "expected_valid": false,
+      "valid": false,
+      "errors": [
+        "no_type_iri: @type 未展开为 DSP/ODRL 命名空间 IRI（context 缺失或不匹配）"
+      ],
+      "expanded_types": [
+        "http://example.org/base/NotARealMessageType"
+      ],
+      "latency_ms": 2.503,
+      "msg_sha256": "d09838c91b2941b4"
+    },
+    {
+      "message": "invalid_unbound_term",
+      "expected_valid": false,
+      "valid": false,
+      "errors": [
+        "vocabulary_governance_violation: tdgX:typoTerm"
+      ],
+      "expanded_types": [
+        "https://w3id.org/dspace/2024/1/ContractRequestMessage"
+      ],
+      "latency_ms": 9.827,
+      "msg_sha256": "05b78e322cdbbf4a"
+    },
+    {
+      "message": "invalid_bad_json_context",
+      "expected_valid": false,
+      "valid": false,
+      "errors": [
+        "expansion_error: JsonLdError: ('Dereferencing a URL did not result in a valid JSON-LD object. Possible causes are an inaccessible URL perhaps due to a same-origin policy (ensure the server uses CORS if you are using client-side JavaScript), too many redirects, a non-JSON response, or more than one HTTP Link Header was provided for a remote context.',)\nType: jsonld.InvalidUrl\nCode: loading remote context failed\nDetails: {'url': 'https://invalid.example/none'}"
+      ],
+      "expanded_types": [],
+      "latency_ms": 1160.342,
+      "msg_sha256": "0f32c06978404ed5"
+    }
+  ]
+}
