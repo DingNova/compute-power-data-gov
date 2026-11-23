@@ -1,0 +1,31 @@
+{
+  "order_id": "ord-20261122T081937Z",
+  "generated_utc": "2026-11-22T08:19:37.578395+00:00",
+  "datasets_evaluated": 2,
+  "avg_metadata_completeness": 87.5,
+  "findings": [
+    {
+      "asset": "uk-carbon-intensity-48h",
+      "metadata_completeness": 100.0,
+      "classification_level": "一般",
+      "classification_valid": true,
+      "license_declared": true,
+      "provenance_anchored": true
+    },
+    {
+      "asset": "owid-gbr-electricity-annual",
+      "metadata_completeness": 75.0,
+      "classification_level": "一般（独立） / 演示衍生升级判定",
+      "classification_valid": false,
+      "license_declared": false,
+      "provenance_anchored": true
+    }
+  ],
+  "quality_dims_real_data": {
+    "completeness": null,
+    "consistency": null,
+    "timeliness": null,
+    "note": "无记录"
+  },
+  "verdict": "REVIEW"
+}

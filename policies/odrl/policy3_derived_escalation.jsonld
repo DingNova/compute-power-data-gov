@@ -1,0 +1,24 @@
+{
+  "@context": ["https://www.w3.org/ns/odrl.jsonld", {
+    "tdg": "https://w3id.org/tdg/vocab#"
+  }],
+  "@type": "Agreement",
+  "uid": "policy:derived-aggregation-escalation",
+  "target": "asset:derived:compute-power-correlation",
+  "permission": [{
+    "action": "odrl:aggregate",
+    "constraint": [{
+      "odrl:leftOperand": "tdg:aggregateEscalation",
+      "odrl:operator": "odrl:isPartOf",
+      "odrl:rightOperand": {"@id": "tdg:highest-of-inputs"}
+    }],
+    "duty": [{
+      "action": "tdg:reclassify",
+      "constraint": [{
+        "odrl:leftOperand": "tdg:resultingLevel",
+        "odrl:operator": "odrl:gteq",
+        "odrl:rightOperand": {"@value": "important"}
+      }]
+    }]
+  }]
+}

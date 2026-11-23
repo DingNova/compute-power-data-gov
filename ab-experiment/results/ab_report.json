@@ -1,0 +1,186 @@
+{
+  "generated_utc": "2026-11-22T08:18:57.712924+00:00",
+  "data_basis": "真实公开数据（UK Carbon Intensity API 48h 实测 + OWID GBR 年度, commit f8de88a4）",
+  "pdp_mode": "development-mode PDP（DSP 实测后用 tck-evidence 日志复核同一指标）",
+  "assets_total": 3,
+  "assets_with_classification": 3,
+  "catalog_coverage_rate": 100.0,
+  "ab": {
+    "v0": {
+      "mode": "v0_no_governance",
+      "rows": [
+        {
+          "id": "t01",
+          "asset": "asset:uk-carbon-intensity-48h",
+          "action": "odrl:analyze",
+          "purpose": "compute-power-coordination-research",
+          "legit": true,
+          "aggregation": false,
+          "decision": "ALLOWED"
+        },
+        {
+          "id": "t02",
+          "asset": "asset:uk-carbon-intensity-48h",
+          "action": "odrl:distribute",
+          "purpose": "commercial-resale",
+          "legit": false,
+          "aggregation": false,
+          "decision": "ALLOWED"
+        },
+        {
+          "id": "t03",
+          "asset": "asset:uk-carbon-intensity-48h",
+          "action": "odrl:analyze",
+          "purpose": "compute-power-coordination-research",
+          "legit": true,
+          "aggregation": false,
+          "decision": "ALLOWED"
+        },
+        {
+          "id": "t04",
+          "asset": "asset:owid-gbr-electricity-annual",
+          "action": "odrl:aggregate",
+          "purpose": "compute-power-coordination-research",
+          "legit": true,
+          "aggregation": true,
+          "decision": "ALLOWED"
+        },
+        {
+          "id": "t05",
+          "asset": "asset:derived:compute-power-correlation",
+          "action": "odrl:distribute",
+          "purpose": "commercial-resale",
+          "legit": false,
+          "aggregation": true,
+          "decision": "ALLOWED"
+        },
+        {
+          "id": "t06",
+          "asset": "asset:owid-gbr-electricity-annual",
+          "action": "odrl:aggregate",
+          "purpose": "commercial-resale",
+          "legit": false,
+          "aggregation": true,
+          "decision": "ALLOWED"
+        },
+        {
+          "id": "t07",
+          "asset": "asset:uk-carbon-intensity-48h",
+          "action": "odrl:distribute",
+          "purpose": "public-disclosure-attributed",
+          "legit": false,
+          "aggregation": false,
+          "decision": "ALLOWED"
+        },
+        {
+          "id": "t08",
+          "asset": "asset:owid-gbr-electricity-annual",
+          "action": "odrl:analyze",
+          "purpose": "compute-power-coordination-research",
+          "legit": true,
+          "aggregation": false,
+          "decision": "ALLOWED"
+        }
+      ],
+      "unauthorized_attempts": 4,
+      "unauthorized_intercepted": 0,
+      "intercept_rate": 0.0,
+      "audit_trail_complete": 0,
+      "audit_trail_rate": 0.0,
+      "decision_latency_ms_p50": 0.0
+    },
+    "v1": {
+      "mode": "v1_governed",
+      "rows": [
+        {
+          "id": "t01",
+          "asset": "asset:uk-carbon-intensity-48h",
+          "action": "odrl:analyze",
+          "purpose": "compute-power-coordination-research",
+          "legit": true,
+          "aggregation": false,
+          "decision": "ALLOWED"
+        },
+        {
+          "id": "t02",
+          "asset": "asset:uk-carbon-intensity-48h",
+          "action": "odrl:distribute",
+          "purpose": "commercial-resale",
+          "legit": false,
+          "aggregation": false,
+          "decision": "DENIED"
+        },
+        {
+          "id": "t03",
+          "asset": "asset:uk-carbon-intensity-48h",
+          "action": "odrl:analyze",
+          "purpose": "compute-power-coordination-research",
+          "legit": true,
+          "aggregation": false,
+          "decision": "ALLOWED"
+        },
+        {
+          "id": "t04",
+          "asset": "asset:owid-gbr-electricity-annual",
+          "action": "odrl:aggregate",
+          "purpose": "compute-power-coordination-research",
+          "legit": true,
+          "aggregation": true,
+          "decision": "ALLOWED_WITH_DUTY"
+        },
+        {
+          "id": "t05",
+          "asset": "asset:derived:compute-power-correlation",
+          "action": "odrl:distribute",
+          "purpose": "commercial-resale",
+          "legit": false,
+          "aggregation": true,
+          "decision": "DENIED"
+        },
+        {
+          "id": "t06",
+          "asset": "asset:owid-gbr-electricity-annual",
+          "action": "odrl:aggregate",
+          "purpose": "commercial-resale",
+          "legit": false,
+          "aggregation": true,
+          "decision": "DENIED"
+        },
+        {
+          "id": "t07",
+          "asset": "asset:uk-carbon-intensity-48h",
+          "action": "odrl:distribute",
+          "purpose": "public-disclosure-attributed",
+          "legit": false,
+          "aggregation": false,
+          "decision": "DENIED"
+        },
+        {
+          "id": "t08",
+          "asset": "asset:owid-gbr-electricity-annual",
+          "action": "odrl:analyze",
+          "purpose": "compute-power-coordination-research",
+          "legit": true,
+          "aggregation": false,
+          "decision": "ALLOWED"
+        }
+      ],
+      "unauthorized_attempts": 4,
+      "unauthorized_intercepted": 4,
+      "intercept_rate": 100.0,
+      "audit_trail_complete": 4,
+      "audit_trail_rate": 100.0,
+      "decision_latency_ms_p50": 0.0
+    }
+  },
+  "key_deltas": {
+    "intercept_rate": [
+      0.0,
+      100.0
+    ],
+    "audit_trail_rate": [
+      0.0,
+      100.0
+    ]
+  }
+}

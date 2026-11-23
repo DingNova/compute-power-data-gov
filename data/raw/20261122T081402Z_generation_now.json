@@ -1,0 +1,49 @@
+{
+  "label": "generation_now",
+  "path": "/generation",
+  "ts_utc": "2026-11-22T08:14:02.131440+00:00",
+  "body": {
+    "data": {
+      "from": "2026-11-22T07:30Z",
+      "to": "2026-11-22T08:00Z",
+      "generationmix": [
+        {
+          "fuel": "biomass",
+          "perc": 6
+        },
+        {
+          "fuel": "coal",
+          "perc": 0
+        },
+        {
+          "fuel": "imports",
+          "perc": 5.6
+        },
+        {
+          "fuel": "gas",
+          "perc": 16.7
+        },
+        {
+          "fuel": "nuclear",
+          "perc": 18.6
+        },
+        {
+          "fuel": "other",
+          "perc": 0
+        },
+        {
+          "fuel": "hydro",
+          "perc": 0
+        },
+        {
+          "fuel": "solar",
+          "perc": 0
+        },
+        {
+          "fuel": "wind",
+          "perc": 53.2
+        }
+      ]
+    }
+  }
+}

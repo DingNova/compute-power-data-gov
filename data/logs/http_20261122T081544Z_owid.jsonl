@@ -1,0 +1,2 @@
+{"ts_utc": "2026-11-22T08:15:44.344775+00:00", "method": "GET", "url": "https://api.github.com/repos/owid/energy-data/commits/master", "status": 200, "resp_bytes": 9168, "duration_ms": 2003, "label": "commit_anchor"}
+{"ts_utc": "2026-11-22T08:15:46.349698+00:00", "method": "GET", "url": "https://raw.githubusercontent.com/owid/energy-data/f8de88a4f6f9cab44f1cf606047cbd6c4414042c/owid-energy-data.csv", "status": 200, "resp_bytes": 9229369, "duration_ms": 9061, "label": "owid_energy_csv"}

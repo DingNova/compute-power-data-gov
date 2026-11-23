@@ -1,0 +1,15 @@
+{
+  "@context": "https://www.w3.org/ns/odrl.jsonld",
+  "@type": "Offer",
+  "uid": "policy:carbon-intensity-export-deny",
+  "assigner": {"uid": "urn:provider:electricside"},
+  "target": "asset:uk-carbon-intensity-48h",
+  "prohibition": [{
+    "action": "odrl:distribute",
+    "constraint": [{
+      "odrl:leftOperand": "odrl:purpose",
+      "odrl:operator": "odrl:neq",
+      "odrl:rightOperand": {"@value": "compute-power-coordination-research"}
+    }]
+  }]
+}

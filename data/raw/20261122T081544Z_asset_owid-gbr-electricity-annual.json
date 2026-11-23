@@ -1,0 +1,22 @@
+{
+  "asset_id": "owid-gbr-electricity-annual",
+  "title": "OWID Great Britain Electricity Generation by Source (annual, 2000+)",
+  "classification": {
+    "framework": "能源行业数据分类分级指南（2026年版）× GB/T 43697-2024",
+    "level": "一般",
+    "rationale": "公开发布的年度统计；作为跨主体聚合演示输入时，由策略 3 触发衍生数据就高从严评估（见 policies/odrl）"
+  },
+  "data_version_anchor": {
+    "host": "github.com/owid/energy-data",
+    "commit": "f8de88a4f6f9cab44f1cf606047cbd6c4414042c",
+    "license": "CC-BY-4.0"
+  },
+  "pull_evidence": {
+    "run_id": "20261122T081544Z",
+    "http_log": "data/logs/http_20261122T081544Z_owid.jsonl",
+    "raw_files": [
+      "20261122T081544Z_owid_gbr_electricity_2000plus.json"
+    ]
+  },
+  "license": "CC-BY-4.0 (OWID)"
+}

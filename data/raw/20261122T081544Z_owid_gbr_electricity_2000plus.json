@@ -1,0 +1,242 @@
+{
+  "source": "https://raw.githubusercontent.com/owid/energy-data/f8de88a4f6f9cab44f1cf606047cbd6c4414042c/owid-energy-data.csv",
+  "commit_sha": "f8de88a4f6f9cab44f1cf606047cbd6c4414042c",
+  "license": "CC-BY-4.0 (OWID)",
+  "pulled_utc": "20261122T081544Z",
+  "records": [
+    {
+      "year": 2000.0,
+      "wind_electricity": 0.94,
+      "solar_electricity": 0.0,
+      "hydro_electricity": 5.09,
+      "low_carbon_electricity": 94.97,
+      "fossil_electricity": 282.09,
+      "electricity_generation": 377.06
+    },
+    {
+      "year": 2001.0,
+      "wind_electricity": 0.96,
+      "solar_electricity": 0.0,
+      "hydro_electricity": 4.05,
+      "low_carbon_electricity": 99.63,
+      "fossil_electricity": 285.14,
+      "electricity_generation": 384.77
+    },
+    {
+      "year": 2002.0,
+      "wind_electricity": 1.25,
+      "solar_electricity": 0.0,
+      "hydro_electricity": 4.79,
+      "low_carbon_electricity": 98.97,
+      "fossil_electricity": 288.27,
+      "electricity_generation": 387.24
+    },
+    {
+      "year": 2003.0,
+      "wind_electricity": 1.29,
+      "solar_electricity": 0.0,
+      "hydro_electricity": 3.23,
+      "low_carbon_electricity": 99.38,
+      "fossil_electricity": 298.83,
+      "electricity_generation": 398.21
+    },
+    {
+      "year": 2004.0,
+      "wind_electricity": 1.94,
+      "solar_electricity": 0.0,
+      "hydro_electricity": 4.84,
+      "low_carbon_electricity": 94.14,
+      "fossil_electricity": 299.78,
+      "electricity_generation": 393.92
+    },
+    {
+      "year": 2005.0,
+      "wind_electricity": 2.9,
+      "solar_electricity": 0.01,
+      "hydro_electricity": 4.92,
+      "low_carbon_electricity": 98.55,
+      "fossil_electricity": 299.8,
+      "electricity_generation": 398.35
+    },
+    {
+      "year": 2006.0,
+      "wind_electricity": 4.22,
+      "solar_electricity": 0.01,
+      "hydro_electricity": 4.59,
+      "low_carbon_electricity": 93.55,
+      "fossil_electricity": 303.72,
+      "electricity_generation": 397.27
+    },
+    {
+      "year": 2007.0,
+      "wind_electricity": 5.27,
+      "solar_electricity": 0.01,
+      "hydro_electricity": 5.08,
+      "low_carbon_electricity": 82.71,
+      "fossil_electricity": 314.1,
+      "electricity_generation": 396.81
+    },
+    {
+      "year": 2008.0,
+      "wind_electricity": 7.13,
+      "solar_electricity": 0.02,
+      "hydro_electricity": 5.14,
+      "low_carbon_electricity": 74.43,
+      "fossil_electricity": 314.53,
+      "electricity_generation": 388.96
+    },
+    {
+      "year": 2009.0,
+      "wind_electricity": 9.28,
+      "solar_electricity": 0.02,
+      "hydro_electricity": 5.23,
+      "low_carbon_electricity": 94.34,
+      "fossil_electricity": 282.42,
+      "electricity_generation": 376.76
+    },
+    {
+      "year": 2010.0,
+      "wind_electricity": 10.29,
+      "solar_electricity": 0.04,
+      "hydro_electricity": 3.59,
+      "low_carbon_electricity": 88.32,
+      "fossil_electricity": 293.74,
+      "electricity_generation": 382.06
+    },
+    {
+      "year": 2011.0,
+      "wind_electricity": 15.96,
+      "solar_electricity": 0.24,
+      "hydro_electricity": 5.69,
+      "low_carbon_electricity": 104.18,
+      "fossil_electricity": 263.79,
+      "electricity_generation": 367.97
+    },
+    {
+      "year": 2012.0,
+      "wind_electricity": 19.84,
+      "solar_electricity": 1.35,
+      "hydro_electricity": 5.31,
+      "low_carbon_electricity": 111.65,
+      "fossil_electricity": 252.22,
+      "electricity_generation": 363.87
+    },
+    {
+      "year": 2013.0,
+      "wind_electricity": 28.4,
+      "solar_electricity": 2.01,
+      "hydro_electricity": 4.7,
+      "low_carbon_electricity": 123.82,
+      "fossil_electricity": 234.46,
+      "electricity_generation": 358.28
+    },
+    {
+      "year": 2014.0,
+      "wind_electricity": 31.95,
+      "solar_electricity": 4.05,
+      "hydro_electricity": 5.89,
+      "low_carbon_electricity": 128.26,
+      "fossil_electricity": 209.82,
+      "electricity_generation": 338.08
+    },
+    {
+      "year": 2015.0,
+      "wind_electricity": 40.27,
+      "solar_electricity": 7.53,
+      "hydro_electricity": 6.3,
+      "low_carbon_electricity": 153.7,
+      "fossil_electricity": 185.17,
+      "electricity_generation": 338.87
+    },
+    {
+      "year": 2016.0,
+      "wind_electricity": 37.16,
+      "solar_electricity": 10.41,
+      "hydro_electricity": 5.37,
+      "low_carbon_electricity": 154.74,
+      "fossil_electricity": 184.44,
+      "electricity_generation": 339.18
+    },
+    {
+      "year": 2017.0,
+      "wind_electricity": 49.65,
+      "solar_electricity": 11.46,
+      "hydro_electricity": 5.88,
+      "low_carbon_electricity": 169.23,
+      "fossil_electricity": 168.99,
+      "electricity_generation": 338.22
+    },
+    {
+      "year": 2018.0,
+      "wind_electricity": 56.91,
+      "solar_electricity": 12.67,
+      "hydro_electricity": 5.44,
+      "low_carbon_electricity": 175.2,
+      "fossil_electricity": 158.56,
+      "electricity_generation": 333.76
+    },
+    {
+      "year": 2019.0,
+      "wind_electricity": 63.84,
+      "solar_electricity": 12.42,
+      "hydro_electricity": 5.93,
+      "low_carbon_electricity": 175.92,
+      "fossil_electricity": 151.27,
+      "electricity_generation": 327.19
+    },
+    {
+      "year": 2020.0,
+      "wind_electricity": 75.62,
+      "solar_electricity": 12.55,
+      "hydro_electricity": 6.88,
+      "low_carbon_electricity": 183.87,
+      "fossil_electricity": 126.43,
+      "electricity_generation": 310.3
+    },
+    {
+      "year": 2021.0,
+      "wind_electricity": 64.93,
+      "solar_electricity": 12.13,
+      "hydro_electricity": 5.42,
+      "low_carbon_electricity": 168.59,
+      "fossil_electricity": 139.31,
+      "electricity_generation": 307.9
+    },
+    {
+      "year": 2022.0,
+      "wind_electricity": 80.21,
+      "solar_electricity": 13.34,
+      "hydro_electricity": 5.66,
+      "low_carbon_electricity": 182.46,
+      "fossil_electricity": 142.12,
+      "electricity_generation": 324.58
+    },
+    {
+      "year": 2023.0,
+      "wind_electricity": 82.15,
+      "solar_electricity": 13.88,
+      "hydro_electricity": 5.54,
+      "low_carbon_electricity": 176.27,
+      "fossil_electricity": 116.26,
+      "electricity_generation": 292.53
+    },
+    {
+      "year": 2024.0,
+      "wind_electricity": 83.28,
+      "solar_electricity": 14.79,
+      "hydro_electricity": 5.76,
+      "low_carbon_electricity": 184.51,
+      "fossil_electricity": 99.65,
+      "electricity_generation": 284.16
+    },
+    {
+      "year": 2025.0,
+      "wind_electricity": 85.84,
+      "solar_electricity": 19.32,
+      "hydro_electricity": 5.55,
+      "low_carbon_electricity": 188.3,
+      "fossil_electricity": 104.01,
+      "electricity_generation": 292.31
+    }
+  ]
+}

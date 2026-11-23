@@ -1,0 +1,21 @@
+{
+  "asset_id": "uk-carbon-intensity-48h",
+  "title": "UK National Grid ESO Carbon Intensity & Generation Mix (48h)",
+  "classification": {
+    "framework": "能源行业数据分类分级指南（2026年版）× GB/T 43697-2024",
+    "level": "一般",
+    "rationale": "公开发布的电网运行公开数据，不涉及个人、重要或核心数据；聚合口径为全国公开统计"
+  },
+  "endpoint_template": "https://api.carbonintensity.org.uk/intensity/{from}/{to}",
+  "pull_evidence": {
+    "run_id": "20261122T081402Z",
+    "http_log": "data/logs/http_20261122T081402Z_carbon_intensity.jsonl",
+    "raw_files": [
+      "data/raw/20261122T081402Z_generation_now.json",
+      "data/raw/20261122T081402Z_intensity_now.json",
+      "data/raw/20261122T081402Z_intensity_48h_actual_plus_forecast.json",
+      "data/raw/20261122T081402Z_generation_48h.json"
+    ]
+  },
+  "license": "开放使用（API 文档条款），拉取时间与请求响应全量留痕"
+}
