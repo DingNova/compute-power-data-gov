@@ -1,0 +1,50 @@
+{
+  "batch_id": "batch-20261124T075830Z",
+  "seed": 20261124,
+  "total_orders": 60,
+  "clean_orders": 20,
+  "defective_orders": 40,
+  "defect_detection_rate": 100.0,
+  "false_positive_rate": 0.0,
+  "accuracy": 100.0,
+  "latency_ms_p50": 0.016,
+  "latency_ms_p95": 0.022,
+  "per_defect_type": {
+    "license_missing": {
+      "n": 5,
+      "detected": 5
+    },
+    "cls_bad_vocab": {
+      "n": 5,
+      "detected": 5
+    },
+    "cls_missing": {
+      "n": 5,
+      "detected": 5
+    },
+    "provenance_missing": {
+      "n": 5,
+      "detected": 5
+    },
+    "endpoint_missing": {
+      "n": 5,
+      "detected": 5
+    },
+    "title_missing": {
+      "n": 5,
+      "detected": 5
+    },
+    "rationale_missing": {
+      "n": 5,
+      "detected": 5
+    },
+    "combo_multi_defect": {
+      "n": 5,
+      "detected": 5
+    },
+    "clean": {
+      "n": 20,
+      "detected": 0
+    }
+  }
+}
